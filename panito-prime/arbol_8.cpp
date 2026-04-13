@@ -1,3 +1,5 @@
+//Codigo que dibuja un arbol
+
 #include <iostream>
 using namespace std;
 
@@ -35,6 +37,7 @@ int main() {
 
     // Tronco
     int t = 1;
+    //  t=3  3 <= 2
     while (t <= 2) {
 
         int espacios = 1;
@@ -50,10 +53,4 @@ int main() {
     }
 
     return 0;
-}*
-   *o*
-  o***o
- *o***o*
-***o*o***
-    |
-    |
+}
