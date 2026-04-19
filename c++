@@ -25,10 +25,11 @@ int main() {
 
     return 0;
 }
-[12/4 8:33 p. m.]...
-..:AMOR     AMOR
+[12/4 8:33 p. m.].....:
+  AMOR     AMOR
 AMOR   AMOR   AMOR
 AMOR AMOR AMOR AMOR
   AMOR AMOR AMOR
+
     AMOR AMOR
       AMOR
