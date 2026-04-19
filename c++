@@ -1,3 +1,4 @@
+dibuja un cuadrado de 12 × 12 en la consola
 #include <iostream>
 using namespace std;
 
