@@ -1,0 +1,128 @@
+#include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main() {
+
+    vector<int> numeros;
+    int opcion, n;
+    int score = 0;
+
+    srand(time(0)); // para numeros aleatorios
+
+    do {
+        cout << "\n=============================\n";
+        cout << "   🎮 JUEGO PRO NUMEROS 🎮\n";
+        cout << "=============================\n";
+        cout << "Score: " << score << endl;
+        cout << "1. ➕ Agregar numero\n";
+        cout << "2. 📋 Mostrar lista\n";
+        cout << "3. 🔍 Buscar numero\n";
+        cout << "4. ➗ Calcular promedio\n";
+        cout << "5. 🎲 Juego: Adivina el numero\n";
+        cout << "6. 🔄 Reiniciar lista\n";
+        cout << "7. ❌ Salir\n";
+        cout << "Elige opcion: ";
+        cin >> opcion;
+
+        switch (opcion) {
+
+        case 1:
+            cout << "👉 Ingresa numero: ";
+            cin >> n;
+            numeros.push_back(n);
+            cout << "✅ Agregado!\n";
+            score += 5;
+            break;
+
+        case 2:
+            if (numeros.empty()) {
+                cout << "⚠️ Lista vacia\n";
+            } else {
+                cout << "📋 Lista: ";
+                for (int x : numeros) cout << x << " ";
+                cout << endl;
+                score += 2;
+            }
+            break;
+
+        case 3: {
+            cout << "🔍 Numero a buscar: ";
+            cin >> n;
+            bool encontrado = false;
+
+            for (int i = 0; i < numeros.size(); i++) {
+                if (numeros[i] == n) {
+                    cout << "🎯 Encontrado en posicion " << i << endl;
+                    encontrado = true;
+                    score += 10;
+                }
+            }
+
+            if (!encontrado) {
+                cout << "❌ No encontrado\n";
+            }
+            break;
+        }
+
+        case 4: {
+            if (numeros.empty()) {
+                cout << "⚠️ No hay numeros\n";
+                break;
+            }
+
+            int suma = 0;
+            for (int x : numeros) suma += x;
+
+            double promedio = (double)suma / numeros.size();
+            cout << "📊 Promedio: " << promedio << endl;
+            score += 3;
+            break;
+        }
+
+        case 5: {
+            int secreto = rand() % 50 + 1;
+            int intento, intentos = 0;
+
+            cout << "🎲 Adivina el numero (1 - 50)\n";
+
+            do {
+                cout << "Ingresa tu intento: ";
+                cin >> intento;
+                intentos++;
+
+                if (intento > secreto) {
+                    cout << "📉 Muy alto\n";
+                } else if (intento < secreto) {
+                    cout << "📈 Muy bajo\n";
+                } else {
+                    cout << "🎉 Correcto!\n";
+                    score += (20 - intentos);
+                }
+
+            } while (intento != secreto);
+
+            cout << "Intentos: " << intentos << endl;
+            break;
+        }
+
+        case 6:
+            numeros.clear();
+            cout << "🔄 Lista reiniciada\n";
+            score = 0;
+            break;
+
+        case 7:
+            cout << "👋 Fin del juego\n";
+            break;
+
+        default:
+            cout << "❌ Opcion invalida\n";
+        }
+
+    } while (opcion != 7);
+
+    return 0;
+}
