@@ -1,4 +1,4 @@
-dibuja un cuadrado de 12 × 12 en la consola
+/dibuja un cuadrado de 12 × 12 en la consola
 #include <iostream>
 using namespace std;
 
@@ -25,15 +25,3 @@ int main() {
     }
 
     return 0;}
-# # # # # # # # # # # #
-# * H * H * H * H * H #
-# H * H * H * H * H * #
-# * H * H * H * H * H #
-# H * H * H * H * H * #
-# * H * H * H * H * H #
-# H * H * H * H * H * #
-# * H * H * H * H * H #
-# H * H * H * H * H * #
-# * H * H * H * H * H #
-# H * H * H * H * H * #
-# # # # # # # # # # # #
