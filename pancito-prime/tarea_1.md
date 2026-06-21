@@ -54,9 +54,17 @@ Nested Scope: Variables declaradas dentro de bloques anidados y solo accesibles 
 
 introduce la estructura de un codigo en c++
 
-#include: Importa bibliotecas.
-using namespace std;: Permite usar funciones estándar.
-main(): Función principal del programa.
-Variables: Guardan datos.
-Instrucciones: Órdenes que ejecuta el programa.
-return 0;: Finaliza el programa.
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Variables
+    int numero = 10;
+
+    // Instrucciones
+    cout << numero << endl;
+
+    return 0;
+}
+```
