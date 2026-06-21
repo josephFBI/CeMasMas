@@ -2,7 +2,8 @@
 
 ## ¿Qué es programar? (en tus palabras di que es programas)
 
-(en esta parte escribe lo que consideres que es programar)
+(es algo que se hace con lógica y algoritmod)
+
 
 ## ¿Qué es programar? (busca en la web y pon la definicion formal de programar)
 
