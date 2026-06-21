@@ -13,7 +13,7 @@
 
 ### 1. Variables básicas
 
-- int:
+- int: Almacena números enteros (sin decimales), positivos o negativos
 - double
 - float
 - char
