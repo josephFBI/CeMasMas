@@ -7,7 +7,7 @@
 
 ## ¿Qué es programar? (busca en la web y pon la definicion formal de programar)
 
-(llena este campo)
+(Programar es el proceso de darle a una máquina (como una computadora, un teléfono o un electrodoméstico) un conjunto de instrucciones ordenadas para que realice una tarea específica. Es el lenguaje que permite crear software, aplicaciones, páginas web y controlar dispositivos electrónicos)
 
 ## Tipos de variables: (definez como tal que es una variabel y las siguientes variales )
 
