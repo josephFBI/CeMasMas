@@ -15,14 +15,14 @@
 ### 1. Variables básicas
 
 - int: Almacena números enteros (sin decimales), positivos o negativos
-- double
+- double: Guarda números decimales con mayor precisión.
 - float
 - char
 - string
 - bool
 
-(int: Guarda números enteros.
-double: Guarda números decimales con mayor precisión.
+(
+double: 
 float: Guarda números decimales.
 char: Guarda un solo carácter.
 string: Guarda texto.
