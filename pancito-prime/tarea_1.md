@@ -2,12 +2,12 @@
 
 ## ¿Qué es programar? (en tus palabras di que es programas)
 
-(es algo que se hace con lógica y algoritmod)
+(Programar es crear instrucciones para que una computadora realice tareas.)
 
 
 ## ¿Qué es programar? (busca en la web y pon la definicion formal de programar)
 
-(Programar es el proceso de darle a una máquina (como una computadora, un teléfono o un electrodoméstico) un conjunto de instrucciones ordenadas para que realice una tarea específica. Es el lenguaje que permite crear software, aplicaciones, páginas web y controlar dispositivos electrónicos)
+(Programar es escribir un conjunto de instrucciones para que una computadora ejecute tareas o resuelva problemas.)
 
 ## Tipos de variables: (definez como tal que es una variabel y las siguientes variales )
 
