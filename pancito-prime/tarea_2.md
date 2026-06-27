@@ -58,7 +58,7 @@ Realiza un programa en secuencias lógicas, tipo el ejercicio 3 para lo siguient
 
 *Reemplaza con tu secuencia lógica*
 
-### Tarea de clase 2: Realiza un programa en secuencias de lo que necesites para lograr *HALLAR EL PERÍMETRO DE UN CUADRADO*
+### Tarea de clase 2: Realiza un programa en secuencias de lo que necesites para lograr *HALLAR EL PERÍMETRO DE UN RECTÁNGULO*
 
 *Reemplaza con tu secuencia lógica*
 
@@ -66,9 +66,19 @@ Realiza un programa en secuencias lógicas, tipo el ejercicio 3 para lo siguient
 
 *Reemplaza con tu secuencia lógica*
 
-### PISTA: Recuerda conocer sobre tu tema, busca en internet las fórmulas y también que es área y perímetro. Recuerda también que datos se necesitan como variables y en dónde las almacenas
+### PISTA: Recuerda conocer sobre tu tema, busca en internet las fórmulas y también que es área y perímetro. Recuerda también que datos se necesitan como variables y en dónde las almacenas, recuerda el uso de variables estáticas.
 
 ## Una vez acabado pon tus 3 secuencias lógicas realiza el código del programa para los 3 casos
 
+```cpp
+//cubo.cpp
+//Pones tu código C++ del área del cubo
+```
 
+```cpp
+//Pones tu código C++ del perímetro del cuadrado
+```
 
+```cpp
+//Pones tu código C++ del área del cono
+```
