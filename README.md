@@ -1,3 +1,2 @@
 # CeMasMas
-Aprendiendo C++
-hols
+Aprendiendo C++ y Excel
