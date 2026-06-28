@@ -85,6 +85,21 @@ Mostrar el resultado*
 ```cpp
 //cubo.cpp
 //Pones tu código C++ del área del cubo
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Variables
+    int lado = 0;
+    int caras = 6;
+    int area_cuadrado = lado * lado;
+    int area_cubo = caras * area_cuadrado;
+    
+    // Instrucciones
+    cout <<"el area del cuadrado es: "<< area_cubo << endl;
+
+    return 0;
+}
 ```
 
 ```cpp
