@@ -9,6 +9,7 @@
 - El tablero tiene 9 filas, 9 columnas y 9 bloques de 3×3.
 
 ## concepto
--El sudoku es un juego de lógica en el que se deben colocar los números del 1 al 9 en un tablero de 9×9, sin repetirlos en una misma fila, columna o bloque de 3×3.
-
+-cEl sudoku es un juego de lógica en el que se deben colocar los números del 1 al 9 en un tablero de 9×9, sin repetirlos en una misma fila, columna o bloque de 3×3.
+## Descripción
+- El jugador debe completar las casillas vacías con números del 1 al 9, evitando repetir un número en la misma fila, columna o bloque de 3×3, hasta completar todo el tablero correctamente.
 
