@@ -17,9 +17,6 @@
 - El sudoku tiene una complejidad media o alta, dependiendo de la cantidad de números que se dan al inicio. Se necesita concentración, lógica y paciencia para resolverlo.
 numeros = int(input("¿Cuántos números faltan? "))
 
-if numeros <= 20:
-    print("Complejidad: Fácil")
-elif numeros <= 40:
-    print("Complejidad: Media")
-else:
-    print("Complejidad: Difícil")
+## roles
+### pancito prime
+### joseph
