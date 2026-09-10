@@ -13,5 +13,5 @@
 ## Descripción
 - El jugador debe completar las casillas vacías con números del 1 al 9, evitando repetir un número en la misma fila, columna o bloque de 3×3, hasta completar todo el tablero correctamente el numero menor de casillas es 17.
 
-## comolejidad
+## complejidad
 - El sudoku tiene una complejidad media o alta, dependiendo de la cantidad de números que se dan al inicio. Se necesita concentración, lógica y paciencia para resolverlo.
