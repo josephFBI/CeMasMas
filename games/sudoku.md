@@ -1,4 +1,4 @@
-# sudoku
+# SUDOKU
 
 ## Reglas
 - Debes completar las casillas vacías con números del 1 al 9.
@@ -18,5 +18,14 @@
 numeros = int(input("¿Cuántos números faltan? "))
 
 ## roles
-### pancito prime
-### joseph
+
+### Pancito_prime ( Frontend )
+
+- Aleatoridad : Generar y mostrar los números aleatorios del sudoku (aleatorizacion y tipo de vista de la información)
+- Jugabilidad : Como hacer divertido al juego, como interactua el jugador con el juego (controles WASD o [f c n] con una secuencia de posicion y numero o un metodo que se te ocurra) 
+
+### Joseph ( Backend )
+
+- Generacion de IA : Algoritmo que resuelva el sudoku
+- Debbuging        : Crear codigos para resolver o hallar el mass cercano tipo GTA
+- Variables        : Poner las variables a usar
